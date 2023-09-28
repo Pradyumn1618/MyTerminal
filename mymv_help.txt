@@ -1,0 +1,21 @@
+mymv:
+	USAGE: mymv [OPTION] [SOURCE] [TARGET]
+	       mymv [SOURCE] [SOURCE]..... [DIRECTORY]
+	
+	Moves a file to another or moves multiple files to directory.
+	
+	-If you want to move a file from a directory other than current directory give an absolute path for the file.
+	
+	-If you want to move a file in current directory to a file in a directory which is not in current directory, give an absolute path for the same.
+	
+	This can be executed with following options:
+	
+	1) -i: Asks before overwriting the target file. Press 'y' or 'Y' to overwrite.
+	
+	2) -n: Doesn't overwrite if the target file already exists.
+	
+	3) -u: Overwrites only when source file is newer than target file.
+	
+	4) -v: Tells what is being done.
+	
+Note that moving multiple files to a directory doesn't come with options.

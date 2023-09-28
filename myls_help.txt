@@ -1,0 +1,16 @@
+myls:
+	USAGE : myls [OPTION]
+	Lists all files in current directory lexicographically excluding hidden files.
+	This can be executed with following options:
+	1) -l : Lists file permissions, number of hard links,owner, group,size in bytes,modification date and filename.
+	
+	2) -s : Lists all files in current directory lexicographically excluding hidden files with size allocated in blocks.
+	
+	3) -g : Same as -l,lists without owner name.
+	
+	4) -lS: Lists all things in -l but in decreasing order of size.
+	
+	5) -ls: Lists size in blocks,file permissions, number of hard links,owner, group,size in bytes,modification date and filename.
+	
+	6) -a : Lists all files in current directory including hidden files.
+	

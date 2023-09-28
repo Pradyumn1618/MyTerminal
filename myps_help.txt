@@ -1,0 +1,15 @@
+myps:
+	USAGE: myps [OPTION]
+	Lists current running processes which are associated with user's terminal with their pid,tty,time and command.
+	This can be executed with following options:
+	
+	1) -a : Lists current running processes which are associated with user's terminal excluding session leaders with their pid,tty,time and command.
+	
+	2) -F : Lists current running processes which are associated with user's terminal with their uid,pid,ppid,c,sz,rss,psr,starttime,tty,time and command.
+	
+	3) -aF: Lists current running processes which are associated with user's terminal excluding session leaders with their uid,pid,ppid,c,sz,rss,psr,starttime,tty,time and command.
+	
+	4) -e : Lists every running processes with their pid,tty,time and command.
+	 
+	5) -eF: Lists every running processes with their uid,pid,ppid,c,sz,rss,psr,starttime,tty,time and command.
+	

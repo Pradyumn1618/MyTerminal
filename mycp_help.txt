@@ -1,0 +1,21 @@
+mycp:
+	mycp [OPTION] [SOURCE] [TARGET]
+	mycp [SOURCE] [SOURCE]..... [DIRECTORY]
+	
+	Copies a file to another or multiple files to a directory.
+	
+	-If you want to copy from a file from a directory other than current directory give an absolute path for the file.
+	
+	-If you want to copy from a file in current directory to a file in a directory which is not in current directory, give an absolute path for the same.
+	
+	This can be executed with following options:
+	
+	1) -i: Asks before overwriting the target file. Press 'y' or 'Y' to overwrite.
+	
+	2) -n: Doesn't overwrite if the target file already exists.
+	
+	3) -u: Overwrites only when source file is newer than target file.
+	
+	4) -v: Tells what is being done.
+	
+Note that copying multiple files to a directory doesn't come with options. 

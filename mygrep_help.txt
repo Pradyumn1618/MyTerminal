@@ -1,0 +1,13 @@
+mygrep:
+	USAGE: mygrep [OPTION] PATTERN [FILE][FILE]...
+	Searches and prints the lines having the pattern in given files. 
+	This can be executed with following options:
+	1) -s: Suppresses any error message related to unreadable files.
+	
+	2) -n: Prints the line with line number of that line in the file.
+	
+	3) -c: Suppresses the normal output and gives only the count of lines.
+	
+        4) -m: Usage: mygrep -m [MAX] PATTERN [FILE][FILE]...
+               Stops printing the lines after the count reaches MAX.
+               
